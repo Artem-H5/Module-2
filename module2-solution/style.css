@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 175%;
+	text-align: center;
+}
+
+#section1 {
+	position: relative;
+}
+
+#section2 {
+	position: relative;
+}
+
+#section3 {
+	position: relative;
+}
+
+h4 {
+	font-size: 125%;
+	clear: left;
+	border: 1px solid black;
+	padding: 0px 5px 0px 5px;
+	margin: 10px;
+	position: absolute;
+}
+
+p {
+	background-color: #d8bb8a;
+	padding: 25px 10px 10px 10px;
+	border: 1px solid black;
+}
+
+#title1 {
+	background-color: #f07a4b;
+	border: 1px solid black;
+	text-align: center;
+	/*top: 40px;
+	right: 0px;*/
+}
+
+#title2 {
+	background-color: rosybrown;
+	border: 1px solid black;
+	text-align: center;
+	/*top: 40px;
+	right: -5px;*/
+}
+
+#title3 {
+	background-color: #c59874;
+	border: 1px solid black;
+	text-align: center;
+	/*top: 40px;
+	right: 10px;*/
+}
+
+@media (min-width: 992px) {
+	#section1,	#section2,	#section3 {
+		width: 33.33%;
+		float:  left;
+	}
+	#text1 {
+		margin: 50px 10px 20px 20px;
+	}
+	#text2 {
+		margin: 50px 5px 20px 10px;
+	}
+	#text3 {
+		margin: 50px 20px 20px 5px;
+	}
+	#title1 {
+	top: 40px;
+	right: 0px;
+	}	
+	#title2 {
+	top: 40px;
+	right: -5px;
+	}	
+	#title3 {
+	top: 40px;
+	right: 10px;
+	}	
+  }
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#section1,	#section2 {
+		width: 50%;
+		float:  left;
+	}
+	#section3 {
+		width: 100%;
+		float: left;
+	}
+	#text1 {
+		margin: 20px 10px 10px 25px;
+	}
+	#text2 {
+		margin: 20px 25px 10px 10px;
+	}
+	#text3 {
+	margin: 10px 25px 20px 25px;
+	}
+	#title1 {
+		top: 10px;
+		right: 0px;
+	}	
+	#title2 {
+		top: 10px;
+		right: 15px;
+	}	
+	#title3 {
+		top: 0px;
+		right: 15px;
+	}	
+  }
+
+@media (max-width: 767px) {
+ 	#section1,	#section2,	#section3 {
+		width: 100%;
+		float:  left;
+ 	}
+ 	#text1 {
+		margin: 20px 30px 5px 40px;
+	}
+	#text2 {
+		margin: 5px 30px 10px 40px;
+	}
+	#text3 {
+		margin: 10px 30px 20px 40px;
+	}
+	#title1 {
+		top: 10px;
+		right: 20px;
+	}	
+	#title2 {
+		top: -5px;
+		right: 20px;
+	}	
+	#title3 {
+		top: 0px;
+		right: 20px;
+	}	
+ }
