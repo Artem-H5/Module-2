@@ -38,24 +38,18 @@ p {
 	background-color: #b27535;
 	border: 1px solid black;
 	text-align: center;
-	/*top: 40px;
-	right: 0px;*/
 }
 
 #title2 {
 	background-color: rosybrown;
 	border: 1px solid black;
 	text-align: center;
-	/*top: 40px;
-	right: -5px;*/
 }
 
 #title3 {
 	background-color: #c59874;
 	border: 1px solid black;
 	text-align: center;
-	/*top: 40px;
-	right: 10px;*/
 }
 
 @media (min-width: 992px) {
