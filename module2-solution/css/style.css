@@ -4,26 +4,22 @@
 	padding: 0;
 }
 
+body {
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
 header {
 	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	font-size: 175%;
 	text-align: center;
 }
 
-#section1 {
+#section1, #section2, #section3 {
 	position: relative;
 }
 
-#section2 {
-	position: relative;
-}
-
-#section3 {
-	position: relative;
-}
-
-h4 {
+section h3 {
 	font-size: 125%;
 	clear: left;
 	border: 1px solid black;
@@ -34,12 +30,12 @@ h4 {
 
 p {
 	background-color: #d8bb8a;
-	padding: 25px 10px 10px 10px;
+	padding: 30px 10px 10px 10px;
 	border: 1px solid black;
 }
 
 #title1 {
-	background-color: #f0916b;
+	background-color: #b27535;
 	border: 1px solid black;
 	text-align: center;
 	/*top: 40px;
@@ -128,7 +124,7 @@ p {
 		float:  left;
  	}
  	#text1 {
-		margin: 20px 30px 5px 40px;
+		margin: 10px 30px 5px 40px;
 	}
 	#text2 {
 		margin: 5px 30px 10px 40px;
@@ -137,7 +133,7 @@ p {
 		margin: 10px 30px 20px 40px;
 	}
 	#title1 {
-		top: 10px;
+		top: 0px;
 		right: 20px;
 	}	
 	#title2 {
