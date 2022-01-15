@@ -1,10 +1,10 @@
 (function() {
-'use strict';
-
-    angular.module ('ShoppingListCheckOff', [])
-    .controller ('ToBuyController', ToBuyController)
-    .controller ('AlreadyBoughtController', AlreadyBoughtController)
-    .service ('ShoppingListCheckOffService', ShoppingListCheckOffService);
+    'use strict';
+    
+    angular.module('ShoppingListCheckOff',[])
+    .controller('ToBuyController',ToBuyController)
+    .controller('AlreadyBoughtController',AlreadyBoughtController)
+    .service('ShoppingListCheckOffService',ShoppingListCheckOffService);
 
     ToBuyController.$inject=['ShoppingListCheckOffService'];
     function ToBuyController(ShoppingListCheckOffService){
@@ -35,10 +35,10 @@
         var service=this;
         var toBuy=[
             { itemName: "Milk", itemQuantity: "2 Gallons" },
-            { itemName: "Cupcakes", itemQuantity: "6 pieces" },
-            { itemName: "Cookies", itemQuantity: "4 pieces" },
-            { itemName: "Chocolate", itemQuantity: "5 pieces" },
-            { itemName: "Donats", itemQuantity: "3 pieces" }
+            { itemName: "Eggs", itemQuantity: "2 dozens" },
+            { itemName: "Muffins", itemQuantity: "6 pieces" },
+            { itemName: "Orange", itemQuantity: "7 pieces" },
+            { itemName: "bananas", itemQuantity: "7 pieces" }
         ];
 
         var alreadyBoughtItems=[];
@@ -58,5 +58,6 @@
 
         }
     }
+    
 
 })();
